@@ -83,7 +83,7 @@
 //
 #define X_MIN_PIN                            3
 #define Y_MIN_PIN                           42
-#define Z_MIN_PIN                           18
+#define Z_MIN_PIN                           -1
 #define Z2_MIN_PIN                          -1
 #ifndef Z_MIN_PROBE_PIN
   #define Z_MIN_PROBE_PIN                    2
@@ -101,8 +101,8 @@
 #if MB(TRIGORILLA_14)
   #define SERVO0_PIN                         6
   #define SERVO1_PIN                        -1
-  #define SERVO2_PIN                        -1
-  #define SERVO3_PIN                        -1
+  #define SERVO2_PIN                         5
+  #define SERVO3_PIN                         4
 #endif
 
 //
